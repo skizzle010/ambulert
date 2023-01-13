@@ -1,9 +1,7 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
-import Hero from '../components/Hero'
-import Alerts from '../components/Alerts'
-import Assigned from '../components/Assigned'
+import PatientDetails from '../components/PatientDetails'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,9 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"/>
       </Head>
-      <Hero />
-      <Alerts/>
-      <Assigned/>
+      <PatientDetails/>
     </div>
   )
 }
