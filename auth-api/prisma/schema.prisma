@@ -10,10 +10,9 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+// Sample user model
 model User {
-  id        Int    @id @default(autoincrement())
-  name      String
-  regno     String
-  emergency String
-  isAdmin Boolean @default(false)
+  id    Int    @id @default(autoincrement())
+  email String @unique
+  name  String
 }
