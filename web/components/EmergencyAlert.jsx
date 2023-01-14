@@ -4,7 +4,7 @@ export default function Example() {
   return (
     <div className='pt-[4rem] pl-[3rem] pr-[3rem]'>
        <h1 className="text-xl font-semibold text-gray-900">
-                Assigned Requests
+                Ambulance Alerts
                 </h1>
     <div className="rounded-md bg-yellow-50 p-4">
       <div className="flex">

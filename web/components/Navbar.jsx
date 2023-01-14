@@ -42,9 +42,7 @@ const Navbar = () => {
           <li className='p-4'>
             <Link href='/patientdetails' className='text-lg'>Patient Details</Link>
           </li>
-          <li className='p-4'>
-            <Link href='/contact' className='text-lg'>Contact</Link>
-          </li>
+
         </ul>
 
         {/* Mobile Button */}
