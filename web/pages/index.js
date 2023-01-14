@@ -4,6 +4,8 @@ import styles from '@/styles/Home.module.css'
 import Hero from '../components/Hero'
 import Alerts from '../components/Alerts'
 import Assigned from '../components/Assigned'
+import EmergencyAlert from '../components/EmergencyAlert'
+import EmergencyAssigned from '../components/EmergencyAssigned'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,8 +20,10 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"/>
       </Head>
       <Hero />
-      <Alerts/>
-      <Assigned/>
+      {/* <Alerts/>
+      <Assigned/> */}
+      <EmergencyAlert/>
+      <EmergencyAssigned/>
     </div>
   )
 }
