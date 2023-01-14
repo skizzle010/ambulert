@@ -30,7 +30,8 @@ app.get( '/google/callback',
 );
 
 app.get('/protected', isLoggedIn, (req, res) => {
-  res.send(`Hello ${req.user.displayName}`);
+  console.log(req.user);
+  res.send(`Hello ${req.user.name}`);
 });
 
 app.get('/logout', (req, res) => {
